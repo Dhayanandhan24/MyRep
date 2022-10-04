@@ -1,0 +1,77 @@
+.container{ 
+    display: grid;
+}
+.header{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    background-color: rgb(1, 1, 61);
+    color: white;
+}
+.header-one{
+    font-size: 35px;
+    padding: 5px;
+}
+.header-two{
+    padding: 5px;
+
+}
+.heading{
+    margin-left: 5px;
+    margin-right: 5px;  
+    padding: 10px;
+    padding-left: 15px;
+    background-color: rgb(2, 2, 118);
+    display: flex;
+    column-gap: 15px;
+
+}
+.aa{
+    color: white;
+}
+.content{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-areas: 
+    "c1 c3"
+    "c2 c3";
+}
+.con-one{
+    padding: 10px;
+    grid-area: c1;
+    background-color: rgb(180, 178, 178);
+    margin: 5px 5px 5px ;
+}
+.one-one{
+    font-size: 23px;
+    font-weight: 600;
+}
+.one-two{
+    border-radius: 5px;
+    background-color: white;
+    padding: 1px 5px 1px 20px;
+    margin: 5px;
+    
+}
+.con-two{
+    padding: 10px;
+    grid-area: c2;
+    background-color: rgb(180, 178, 178);
+    margin: 5px 5px 5px ;
+}
+.con-three{
+    padding: 10px;
+    grid-area: c3;
+    background-color:  rgb(180, 178, 178);
+    margin: 5px 5px 5px ;
+}
+.three-one{
+    font-size: 25px;
+}
+.footer{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: rgb(2, 2, 118);
+    color: white;
+}
